@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(gdc3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
