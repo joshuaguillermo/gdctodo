@@ -10,8 +10,8 @@ body {
 }
 
 .loginform {
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 280px;
     background: #000000;
     color: #ffffff;
     top: 50%;
@@ -19,9 +19,55 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
+    border-radius: 10px;
     opacity: .9;
+    text-align: center;
 }
 
-.login {
-    color: burlywood;
+.loginform .login {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.loginform input {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.loginform input[type=text],
+input[type=password] {
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+}
+
+.loginform input[type=submit] {
+    border-radius: 15px;
+    background: #597C2B;
+}
+
+.loginform input[type=submit]:hover {
+    cursor: pointer;
+    background: #D2E459;
+    color: #000000;
+}
+
+.loginform a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginform a:hover {
+    color: #92bad2;
 }
